@@ -15,7 +15,7 @@ public class TraversalPractice {
         if (node == null ) return;  
         printLargeNodesPostOrder(node.left);
         printLargeNodesPostOrder(node.right);
-        if (node.value > 1000) {
+        if (node.data > 1000) {
             System.out.println(node.data);
         
         }
